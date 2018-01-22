@@ -10,8 +10,8 @@ package:
 source:
   fn: openssl_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/openssl_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/openssl/openssl_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/openssl_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/openssl/openssl_{{ version }}.tar.gz
   sha256: e7ece774305f1ef99bb645b209395bf02cf85b7ad26440e040f6f50cf47b27c7
 
 
