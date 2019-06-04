@@ -42,11 +42,13 @@ requirements:
   host:
     - r-base
     - r-askpass
+    - {{native}}openssl
 
   run:
     - r-base
     - {{native}}gcc-libs         # [win]
     - r-askpass
+    - {{native}}openssl
 
 test:
   commands:
